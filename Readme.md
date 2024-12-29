@@ -12,7 +12,7 @@ The LinkedIn Connection Helper is a Chrome extension designed to assist users in
 
 1. Clone the repository or download the ZIP file.
    ```bash
-   git clone https://github.com/yourusername/linkedin-connection-helper.git
+   git clone https://github.com/niteshmandall/linkedin-connection-timer.git
    ```
 
 2. Open Chrome and navigate to `chrome://extensions/`.
@@ -63,23 +63,3 @@ The extension uses a `manifest.json` file to define its properties and permissio
     "type": "module"
   }
 }
-```
-
-## Contributing
-Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-- Thanks to the Chrome Extensions documentation for guidance on building extensions.
-- Special thanks to the open-source community for their contributions and support.
-
-## Contact
-For any questions or feedback, please reach out to [your.email@example.com](mailto:your.email@example.com).
-```
-
-### Customization
-- Replace `https://github.com/yourusername/linkedin-connection-helper.git` with the actual URL of your repository.
-- Update the contact email and any other sections as needed to fit your project specifics.
-- You can also add sections for troubleshooting, FAQs, or any other relevant information that users might find helpful.
