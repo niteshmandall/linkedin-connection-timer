@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LinkedIn Connection Helper</title>
+  <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>LinkedIn Connection Helper</h2>
+    
+    <div class="status-card">
+      <div class="status-item">
+        <span class="status-label">Next Connection In</span>
+        <span class="status-value" id="timeLeft">--:--</span>
+      </div>
+      <div class="status-item">
+        <span class="status-label">Remaining Connections</span>
+        <span class="status-value" id="connectionsLeft">100</span>
+      </div>
+    </div>
+    
+    <div class="button-group">
+      <button id="startTimer">Start Timer</button>
+      <button id="stopTimer" disabled>Stop Timer</button>
+      <button id="decrementCounter" class="secondary">Use Connection (-1)</button>
+      <button id="resetCounter" class="secondary">Reset Counter</button>
+    </div>
+  </div>
+  <script src="popup.js" type="module"></script>
+</body>
+</html>
